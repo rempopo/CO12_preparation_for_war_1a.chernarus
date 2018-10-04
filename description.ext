@@ -14,6 +14,25 @@ respawnDelay = 9999999;
 
 class Params
 {   
+	class overview_line0
+	{
+		title = "Обзор:";
+		values[] = {0};
+		texts[] = {""};
+	};
+	class overview_line1
+	{
+		title = "Рейд КМП для нанесения удара по позициям противника. Цели: Уничтожить ЗРК при помощи крылатых ракет";
+		values[] = {0};
+		texts[] = {""};
+	};
+	
+	class overview_line_break
+	{
+		title = "---- Настройки ------------------"; 
+		values[] = {0};
+		texts[] = {""};
+	};
 	class par_daytime
 	{
 	    title = "Время суток";

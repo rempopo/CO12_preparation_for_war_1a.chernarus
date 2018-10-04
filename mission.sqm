@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=84;
+		nextID=102;
 	};
 	class Camera
 	{
-		pos[]={13213.411,185.89673,4272.2456};
-		dir[]={0.43165761,-0.80961627,-0.39785483};
-		up[]={0.59544241,0.58672208,-0.54881454};
-		aside[]={-0.67776161,5.9316517e-007,-0.73534644};
+		pos[]={18564.748,694.60699,4689.3584};
+		dir[]={-0.83377683,-0.50484711,0.22375679};
+		up[]={-0.48763022,0.86317956,0.13086258};
+		aside[]={0.25921041,3.7859718e-007,0.96588504};
 	};
 };
 binarizationWanted=0;
@@ -336,25 +336,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -400,6 +381,25 @@ class CustomAttributes
 							};
 						};
 					};
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
 				};
 			};
 		};
@@ -2835,7 +2835,7 @@ class Mission
 				{
 					dataType="Trigger";
 					position[]={13560.074,21.320932,3023.6777};
-					angle=6.2342029;
+					angle=6.2342024;
 					class Attributes
 					{
 						name="baseTrg";
@@ -3413,12 +3413,12 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={20182.625,11.541809,4012.7751};
+						position[]={20182.625,11.541817,4012.7749};
 					};
-					init="this setVariable ['tSF_ArtillerySupport', 'Steel Rain-1-1'];";
+					init="call{this setVariable ['tSF_ArtillerySupport', 'Steel Rain-1-1'];}";
 					id=207;
 					type="Logic";
-					atlOffset=83.884995;
+					atlOffset=83.885002;
 				};
 				class Item3
 				{
