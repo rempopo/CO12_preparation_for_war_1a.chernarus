@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=286;
+		nextID=288;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={13594.884,145.21925,4203.938};
-		dir[]={-0.3412309,-0.59064621,0.731336};
-		up[]={-0.24978368,0.806862,0.53534132};
-		aside[]={0.906286,1.0794029e-006,0.42285883};
+		pos[]={13213.411,185.89673,4272.2456};
+		dir[]={0.43165761,-0.80961627,-0.39785483};
+		up[]={0.59544241,0.58672208,-0.54881454};
+		aside[]={-0.67776161,5.9316517e-007,-0.73534644};
 	};
 };
 binarizationWanted=0;
@@ -446,8 +446,8 @@ class Mission
 		forecastLightnings=0.1;
 		wavesForced=1;
 		windForced=1;
-		year=2008;
-		month=10;
+		year=2018;
+		month=9;
 		day=11;
 		hour=9;
 		minute=20;
@@ -2666,10 +2666,10 @@ class Mission
 					class PositionInfo
 					{
 						position[]={13524.219,4.0889416,4377.2632};
-						angles[]={6.2498641,0,6.2020311};
+						angles[]={6.249867,0,6.2020273};
 					};
 					name="tSF_Scenario_Logic";
-					init="tSF_SummaryText = 'USMC Destroy enemy Anti-Air(S750)'";
+					init="call{tSF_SummaryText = 'USMC Destroy enemy Anti-Air(S750)'}";
 					id=127;
 					type="Logic";
 				};
