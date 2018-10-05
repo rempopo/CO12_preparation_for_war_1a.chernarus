@@ -61,14 +61,14 @@ kit_usmc_sl = [
 ];
 
 kit_usmc_ftl = [
-	["<EQUIPEMENT >>  ","rhs_uniform_FROG01_wd","rhsusf_spc_teamleader","","rhsusf_lwh_helmet_marpatwd",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d145_m320","rhs_mag_30Rnd_556x45_M855A1_Stanag",["rhsusf_acc_nt4_black","rhsusf_acc_anpeq15_bk","rhsusf_acc_ACOG3_3d",""]],
+	["<EQUIPEMENT >>  ","rhs_uniform_FROG01_wd","rhsusf_spc_teamleader","B_AssaultPack_rgr","rhsusf_lwh_helmet_marpatwd",""],
+	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d145_m320","rhs_mag_30Rnd_556x45_M855A1_Stanag",["rhsusf_acc_nt4_black","rhsusf_acc_anpeq15_bk_h","rhsusf_acc_ACOG3_3d",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
-	["<VEST ITEMS >> ",[["HandGrenade",2],["ACE_HandFlare_Yellow",1],["ACE_HandFlare_Green",1],["SmokeShell",2],["rhs_mag_30Rnd_556x45_M855_PMAG",8],["rhs_mag_M441_HE",7]]],
-	["<BACKPACK ITEMS >> ",[]]
+	["<VEST ITEMS >> ",[["ACE_M26_Clacker",1],["HandGrenade",2],["ACE_HandFlare_Yellow",1],["ACE_HandFlare_Green",1],["SmokeShell",2],["rhs_mag_30Rnd_556x45_M855_PMAG",8],["rhs_mag_M441_HE",7]]],
+	["<BACKPACK ITEMS >> ",[["SatchelCharge_Remote_Mag",2]]]
 ];
 
 kit_usmc_ar = [
