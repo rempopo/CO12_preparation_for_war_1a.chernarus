@@ -50,7 +50,7 @@
 #define UNIFORM_ITEMS_L		["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1],["ACE_MapTools",1]
 // ****************
 kit_usmc_sl = [
-	["<EQUIPEMENT >>  ","rhs_uniform_FROG01_wd","rhsusf_spc_squadleader","tf_rt1523g_big_bwmod","rhsusf_lwh_helmet_marpatwd",""],
+	["<EQUIPEMENT >>  ","rhs_uniform_g3_mc","rhsusf_spc_squadleader","tf_rt1523g_big_bwmod","rhsusf_opscore_mc_pelt_nsw",""],
 	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d145","rhs_mag_30Rnd_556x45_M855_PMAG",["rhsusf_acc_nt4_black","rhsusf_acc_anpeq15_bk","rhsusf_acc_ACOG3",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_Pistol_heavy_01_F","11Rnd_45ACP_Mag",["muzzle_snds_acp","acc_flashlight_pistol","optic_MRD",""]],
@@ -61,7 +61,7 @@ kit_usmc_sl = [
 ];
 
 kit_usmc_ftl = [
-	["<EQUIPEMENT >>  ","rhs_uniform_FROG01_wd","rhsusf_spc_teamleader","B_AssaultPack_rgr","rhsusf_lwh_helmet_marpatwd",""],
+	["<EQUIPEMENT >>  ","rhs_uniform_g3_mc","rhsusf_spc_teamleader","B_AssaultPack_rgr","rhsusf_opscore_mc_pelt_nsw",""],
 	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d145_m320","rhs_mag_30Rnd_556x45_M855A1_Stanag",["rhsusf_acc_nt4_black","rhsusf_acc_anpeq15_bk_h","rhsusf_acc_ACOG3_3d",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -72,7 +72,7 @@ kit_usmc_ftl = [
 ];
 
 kit_usmc_ar = [
-	["<EQUIPEMENT >>  ","rhs_uniform_FROG01_wd","rhsusf_spc_mg","B_AssaultPack_rgr","rhsusf_lwh_helmet_marpatwd",""],
+	["<EQUIPEMENT >>  ","rhs_uniform_g3_mc","rhsusf_spc_mg","B_AssaultPack_rgr","rhsusf_opscore_mc_pelt_nsw",""],
 	["<PRIMARY WEAPON >>  ","rhs_weap_m27iar_grip","rhs_mag_30Rnd_556x45_M855A1_Stanag",["rhsusf_acc_nt4_black","rhsusf_acc_anpeq15_bk_h","rhsusf_acc_ACOG3_3d","bipod_01_F_blk"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_Pistol_heavy_01_F","11Rnd_45ACP_Mag",["muzzle_snds_acp","","optic_MRD",""]],
@@ -83,7 +83,7 @@ kit_usmc_ar = [
 ];
 
 kit_usmc_gr = [
-	["<EQUIPEMENT >>  ","rhs_uniform_FROG01_wd","rhsusf_spc_teamleader","","rhsusf_lwh_helmet_marpatwd",""],
+	["<EQUIPEMENT >>  ","rhs_uniform_g3_mc","rhsusf_spc_teamleader","","rhsusf_opscore_mc_pelt_nsw",""],
 	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d145_m320","rhs_mag_30Rnd_556x45_M855A1_Stanag",["rhsusf_acc_nt4_black","rhsusf_acc_anpeq15_bk","rhsusf_acc_ACOG3_3d",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -94,7 +94,7 @@ kit_usmc_gr = [
 ];
 
 kit_usmc_so = [
-	["<EQUIPEMENT >>  ","rhs_uniform_FROG01_wd","rhsusf_spc_squadleader","B_Static_Designator_01_weapon_F","rhsusf_lwh_helmet_marpatwd",""],
+	["<EQUIPEMENT >>  ","rhs_uniform_g3_mc","rhsusf_spc_squadleader","B_Static_Designator_01_weapon_F","rhsusf_opscore_mc_pelt_nsw",""],
 	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d145","rhs_mag_30Rnd_556x45_M855_PMAG",["rhsusf_acc_nt4_black","rhsusf_acc_anpeq15_bk_h","rhsusf_acc_ACOG3_3d",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_Pistol_heavy_01_F","11Rnd_45ACP_Mag",["muzzle_snds_acp","acc_flashlight_pistol","optic_MRD",""]],
@@ -105,7 +105,7 @@ kit_usmc_so = [
 ];
 
 kit_usmc_psg = [
-	["<EQUIPEMENT >>  ","rhs_uniform_FROG01_wd","rhsusf_spc_squadleader","tf_rt1523g_big_bwmod","rhsusf_lwh_helmet_marpatwd",""],
+	["<EQUIPEMENT >>  ","rhs_uniform_g3_mc","rhsusf_spc_squadleader","tf_rt1523g_big_bwmod","rhsusf_lwh_helmet_marpatwd",""],
 	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d145","rhs_mag_30Rnd_556x45_M855_PMAG",["rhsusf_acc_nt4_black","rhsusf_acc_anpeq15_bk_h","rhsusf_acc_ACOG3_3d",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_Pistol_heavy_01_F","11Rnd_45ACP_Mag",["muzzle_snds_acp","acc_flashlight_pistol","optic_MRD",""]],

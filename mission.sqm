@@ -8,22 +8,22 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=341;
+		nextID=345;
 	};
 	class MarkerIDProvider
 	{
-		nextID=18;
+		nextID=21;
 	};
 	class LayerIndexProvider
 	{
-		nextID=174;
+		nextID=192;
 	};
 	class Camera
 	{
-		pos[]={13142.781,394.29013,4815.7666};
-		dir[]={-0.42571059,-0.67296308,-0.60504895};
-		up[]={-0.38724297,0.73967177,-0.55037493};
-		aside[]={-0.81792158,8.1572216e-007,0.57548976};
+		pos[]={13366.781,40.401691,5364.2612};
+		dir[]={0.15887359,-0.58958834,0.79199857};
+		up[]={0.11596359,0.80768228,0.57809305};
+		aside[]={0.98052543,-4.5829802e-007,-0.1966922};
 	};
 };
 binarizationWanted=0;
@@ -284,6 +284,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -329,25 +348,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -404,7 +404,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=110;
+		items=114;
 		class Item0
 		{
 			dataType="Object";
@@ -4745,7 +4745,7 @@ class Mission
 			fillName="DiagGrid";
 			a=180;
 			b=80;
-			angle=352.99994;
+			angle=352.99991;
 			id=339;
 			atlOffset=38.391434;
 		};
@@ -4915,6 +4915,217 @@ class Mission
 				};
 				nAttributes=8;
 			};
+		};
+		class Item110
+		{
+			dataType="Marker";
+			position[]={13290.175,53.973999,5814.186};
+			name="marker_18";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="DiagGrid";
+			a=40;
+			b=200;
+			id=341;
+			atlOffset=15.618252;
+		};
+		class Item111
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={13290.2,38.333904,5814.1899};
+				angles[]={0.21019,0,5.8291903};
+			};
+			id=342;
+			type="Site_Minefield";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Site_Minefield_marked";
+					expression="_this setVariable ['marked',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Friendlies";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="Site_Minefield_side";
+					expression="_this setVariable ['side',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="OPFOR";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="Site_Minefield_conditionOfPresence";
+					expression="_this setVariable ['conditionOfPresence',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="Site_Minefield_minesType";
+					expression="_this setVariable ['minesType',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="APERSTripMine";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="Site_Minefield_minesCount";
+					expression="_this setVariable ['minesCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="200";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="Site_Minefield_axisA";
+					expression="_this setVariable ['axisA',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="40";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="Site_Minefield_axisB";
+					expression="_this setVariable ['axisB',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="150";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="Site_Minefield_shape";
+					expression="_this setVariable ['shape',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="rectangle";
+						};
+					};
+				};
+				nAttributes=8;
+			};
+		};
+		class Item112
+		{
+			dataType="Marker";
+			position[]={13086.528,107.90564,4944.5322};
+			name="marker_19";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="DiagGrid";
+			a=73.742004;
+			b=247.696;
+			angle=22.328661;
+			id=343;
+			atlOffset=-8.7783966;
+		};
+		class Item113
+		{
+			dataType="Marker";
+			position[]={12520.046,150.96001,4137.6572};
+			name="marker_20";
+			markerType="RECTANGLE";
+			type="rectangle";
+			colorName="ColorRed";
+			fillName="DiagGrid";
+			a=181.735;
+			b=50;
+			angle=342.72293;
+			id=344;
+			atlOffset=34.655945;
 		};
 	};
 	class Connections
