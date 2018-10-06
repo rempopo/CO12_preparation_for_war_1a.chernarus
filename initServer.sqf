@@ -39,3 +39,11 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
 	PlayerConnectedData pushBack _this;
 	publicVariable "PlayerConnectedData";
 }];
+
+[] spawn { waitUntil { sleep 10; !(alive tsk1) || !(alive tsk2) }; [patrol3, "COMBAT"] call dzn_fnc_dynai_setGroupsMode;
+																	[chp1, "COMBAT"] call dzn_fnc_dynai_setGroupsMode; 
+																	[sol0, "COMBAT"] call dzn_fnc_dynai_setGroupsMode; 
+																	[sol1, "COMBAT"] call dzn_fnc_dynai_setGroupsMode; 
+																	[task1, "COMBAT"] call dzn_fnc_dynai_setGroupsMode;
+																	[task2, "COMBAT"] call dzn_fnc_dynai_setGroupsMode; 
+																	[patrol4, "COMBAT"] call dzn_fnc_dynai_setGroupsMode; }
